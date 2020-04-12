@@ -1,5 +1,6 @@
 # Start with a base image containing Java runtime
-FROM java:11
+#FROM java:8
+FROM jenkins/jenkins:jdk11
 
 # Add Author info
 LABEL maintainer="skyer9@gmail.com"
